@@ -7,7 +7,7 @@ def count_down(sec):
     for i in range(sec, 0, -1):
         print(i)
         time.sleep(1)
-    print("Script Strat")
+    print("Script Start")
 
 def loop():
     ctr = keyboard.Controller()
